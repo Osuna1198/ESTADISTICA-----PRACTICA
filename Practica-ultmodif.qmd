@@ -258,6 +258,14 @@ summary(model)
 
 14. Evaluar la calidad de vuestro modelo \# Diagnóstico de los residuos
 
+
+El valor bajo de R² indica que existen numerosos factores importantes que no están siendo considerados por el modelo.
+
+Aunque algunos predictores son significativos, otros no lo son, lo que sugiere la posibilidad de simplificar el modelo eliminando las variables insignificantes.
+
+El F-estadístico señala que el modelo posee capacidad predictiva general, pero aún presenta errores residuales relativamente elevados, lo que sugiere margen para mejorar la calidad de las predicciones.
+
+En resumen, el modelo tiene una base estadísticamente sólida, pero podría optimizarse mediante la incorporación de variables relevantes no incluidas o ajustando el enfoque de modelado para incrementar su precisión.
 ------------------------------------------------------------------------
 
 15. Si tuvieramos un anuncio de un apartamento para 6 personas (Accommodates), con 1 baño, con un precio de 80€/noche y 3 habitaciones en el barrio de Sol, con 3 camas y un review de 80. ¿Cuantos metros cuadrados tendría? Si tu modelo necesita algúna variable adicional puedes inventartela dentro del rango de valores del dataset. ¿Como varía sus metros cuadrados con cada habitación adicional?
